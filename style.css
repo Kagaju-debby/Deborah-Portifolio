@@ -338,7 +338,7 @@ section .title::after {
 .skills .skills-content .right .text {
   font-size: 20px;
   font-weight: 600;
-  margin-bottom: 10px;
+  margin-top: 10px;
 }
 .skills .skills-content .left p {
   text-align: justify;
@@ -361,12 +361,10 @@ section .title::after {
   color: #E45A84;
   background: none;
 }
-.skills .skills-content .right .bars {
-  margin-bottom: 15px;
-}
+
 .skills .skills-content .right .info {
   display: flex;
-  margin-bottom: 5px;
+  margin-top: -10px;
   align-items: center;
   justify-content: space-between;
 }
@@ -392,6 +390,7 @@ section .title::after {
   width: 1em;
   margin-left: -1em;
 }
+
 
 /* new version of teams section styling */
 .testimonials .title::after {
